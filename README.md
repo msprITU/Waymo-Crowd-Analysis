@@ -1,6 +1,6 @@
 # Waymo Crowd Analysis
 ## Trained Model Files
-Models trained for use in the project
+Models trained for use in the 30th ICECS 2023 conference "Vehicle Crowd Analysis via Transfer Learning" [paper](https://raw.githubusercontent.com/msprITU/Waymo-Crowd-Analysis/main/icecs2023.pdf).
 |Network|Trained On|Pretrained On|Epoch|Link|
 |-------|----------|-------------|-----|----|
 |CSRNet|TRANCOS|-       |727|[Download](https://github.com/msprITU/Waymo-Crowd-Analysis/releases/download/TRANCOS/CSRNetOnlyTrancos727.pth.tar)|
@@ -19,3 +19,6 @@ Visual comparison of ground truth density maps with predicted density maps of On
 ![segment-11355519273066561009_5323_000_5343_000_with_camera_labels tfrecord](https://github.com/msprITU/Waymo-Crowd-Analysis/assets/56837349/42b5de6c-accf-4cbf-9536-bc085234ac63)
 ### Dark
 ![segment-14753089714893635383_873_600_893_600_with_camera_labels tfrecord](https://github.com/msprITU/Waymo-Crowd-Analysis/assets/56837349/2ac76700-de90-42a4-a75f-87397b36a410)
+
+### TODO
+- The code used for training and testing will be added to the repository.
