@@ -1,7 +1,7 @@
 # Crowd Analysis on Waymo Dataset
 ## Crowd Analysis by Transfer Learning
 ### Trained Model Files
-Models trained for use in the 30th ICECS 2023 conference "Vehicle Crowd Analysis via Transfer Learning" [paper]([https://ieeexplore.ieee.org/document/10382876]).
+Models trained for the 30th ICECS 2023 conference paper ["Vehicle Crowd Analysis via Transfer Learning"](https://ieeexplore.ieee.org/document/10382876) are available here.
 <!---[https://raw.githubusercontent.com/msprITU/Waymo-Crowd-Analysis/main/icecs2023.pdf]--->
 |Network|Trained On|Pretrained On|Epoch|Link|
 |-------|----------|-------------|-----|----|
