@@ -1,7 +1,7 @@
 # Waymo Crowd Analysis
 ## Single-image-based Crowd Analysis
 ### Trained Model Files
-Models trained for use in the 30th ICECS 2023 conference "Vehicle Crowd Analysis via Transfer Learning" [paper](https://raw.githubusercontent.com/msprITU/Waymo-Crowd-Analysis/main/icecs2023.pdf).
+Models trained for use in the 30th ICECS 2023 conference "Vehicle Crowd Analysis via Transfer Learning" [paper]([https://raw.githubusercontent.com/msprITU/Waymo-Crowd-Analysis/main/icecs2023.pdf](https://ieeexplore.ieee.org/document/10382876)).
 |Network|Trained On|Pretrained On|Epoch|Link|
 |-------|----------|-------------|-----|----|
 |CSRNet|TRANCOS|-       |727|[Download](https://github.com/msprITU/Waymo-Crowd-Analysis/releases/download/TRANCOS/CSRNetOnlyTrancos727.pth.tar)|
@@ -11,7 +11,7 @@ Models trained for use in the 30th ICECS 2023 conference "Vehicle Crowd Analysis
 |CSRNet|Waymo  |ShangT A|30 |[Download](https://github.com/msprITU/Waymo-Crowd-Analysis/releases/download/Waymo/CSRNetShanghaiAWaymo30.pth.tar)|
 |CSRNet|Waymo  |ShangT B|30 |[Download](https://github.com/msprITU/Waymo-Crowd-Analysis/releases/download/Waymo/CSRNetShanghaiBWaymo30.pth.tar)|
 |CSRNet|Waymo  |TRANCOS |27 |[Download](https://github.com/msprITU/Waymo-Crowd-Analysis/releases/download/Waymo/CSRNetTrancosWaymo27.pth.tar)|
-### Visual Comparison
+#### Visual Comparison
 Visual comparison of ground truth density maps with predicted density maps of OnlyWaymo25 and transfer learning applied TrancosWaymo27 models under different weather conditions
 #### Sunny
 ![segment-1208303279778032257_1360_000_1380_000_with_camera_labels](https://github.com/msprITU/Waymo-Crowd-Analysis/assets/56837349/04483e1c-1559-4790-9be5-51239d57ffeb)
