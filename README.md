@@ -23,7 +23,7 @@ Visual comparison of ground truth density maps with predicted density maps of On
 
 ## Flow Estimation-based Crowd Analysis
 
-## Multi-category Crowd Analysis
+## Multi-Category Crowd Analysis
 
 ### TODO
 - The code used for training and testing will be added to the repository.
