@@ -6,7 +6,7 @@ Our work includes a transfer learning-based crowd analysis using single images, 
 
 ### 🔍 Project Overview
 
-We propose three complementary approaches for object counting and localization:
+We propose three complementary approaches for crowd analysis:
 
 ### 1. Transfer Learning-Based Vehicle Counting (Single Image)
 A convolutional neural network (CNN) trained using transfer learning to estimate the number of vehicles in a **single image**. This approach enables fast and accurate crowd density estimation from static frames. [See details](#crowd-analysis-by-transfer-learning)
@@ -27,8 +27,10 @@ A novel approach that counts **multiple object types** (e.g., vehicles, pedestri
 
 
 ## Crowd Analysis by Transfer Learning
+In this method we employ the [CSRnet network](https://github.com/leeyeehoo/CSRNet), originally developed for people crowd counting and adapted this network to the area of vehicle crowd counting using [Waymo](https://waymo.com/open/) and [TRANCOS](https://waymo.com/open/) datasets. To improve the network performance, transfer-leraning-based Waymo models are trained using pretrained models trained on datasets such as ShanghaiTech and TRANCOS. Our work is presented in our paper titled ["Vehicle Crowd Analysis via Transfer Learning"](https://ieeexplore.ieee.org/document/10382876) at the 30th ICECS 2023 conference.
+
 ### Trained Model Files
-Models trained for the 30th ICECS 2023 conference paper ["Vehicle Crowd Analysis via Transfer Learning"](https://ieeexplore.ieee.org/document/10382876) are available here.
+You can access our trained model files here.
 <!---[https://raw.githubusercontent.com/msprITU/Waymo-Crowd-Analysis/main/icecs2023.pdf]--->
 |Network|Trained On|Pretrained On|Epoch|Link|
 |-------|----------|-------------|-----|----|
