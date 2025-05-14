@@ -27,7 +27,7 @@ A novel approach that counts **multiple object types** (e.g., vehicles, pedestri
 
 
 ## Crowd Analysis by Transfer Learning
-In this method we employ the [CSRnet network](https://github.com/leeyeehoo/CSRNet), originally developed for people crowd counting and adapted this network to the area of vehicle crowd counting using [Waymo](https://waymo.com/open/) and [TRANCOS](https://waymo.com/open/) datasets. To improve the network performance, transfer-leraning-based Waymo models are trained using pretrained models trained on datasets such as ShanghaiTech and TRANCOS. Our work is presented in our paper titled ["Vehicle Crowd Analysis via Transfer Learning"](https://ieeexplore.ieee.org/document/10382876) at the 30th ICECS 2023 conference.
+In this method we employ the [CSRnet network](https://github.com/leeyeehoo/CSRNet), originally developed for people crowd counting and adapted this network to the area of vehicle crowd counting using [Waymo](https://waymo.com/open/) and [TRANCOS](https://waymo.com/open/) datasets. To improve the network performance, transfer-leraning-based Waymo models are trained using pretrained models trained on datasets such as [ShanghaiTech](https://github.com/desenzhou/ShanghaiTechDataset) and TRANCOS. Our work is detailed in our paper titled ["Vehicle Crowd Analysis via Transfer Learning"](https://ieeexplore.ieee.org/document/10382876) as presented in the 30th ICECS 2023 conference.
 
 ### Trained Model Files
 You can access our trained model files here.
