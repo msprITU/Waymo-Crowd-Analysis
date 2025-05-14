@@ -8,13 +8,13 @@ Our work includes a transfer learning-based crowd analysis using single images, 
 
 We propose three complementary approaches for crowd analysis:
 
-### 1. Transfer Learning-Based Vehicle Counting (Single Image)
+### 1. Crowd Analysis by Transfer Learning (Single Image)
 A convolutional neural network (CNN) trained using transfer learning to estimate the number of vehicles in a **single image**. This approach enables fast and accurate crowd density estimation from static frames. [See details](#crowd-analysis-by-transfer-learning)
 
-### 2. Object Flow Estimation (Video-Based Counting)
+### 2. Flow Estimation-based Crowd Analysis (Video-Based Counting)
 A more advanced method that estimates **dynamic object flow** between video frames to track and count vehicles over time, capturing temporal dependencies and motion patterns. [See details](#flow-estimation-based-crowd-analysis)
 
-### 3. Multi-Class Object Counting
+### 3. Multi-Category Crowd Analysis
 A novel approach that counts **multiple object types** (e.g., vehicles, pedestrians, bicycles) within a road scene in video frames. The model is trained using our **manually annotated data** containing various object categories. [See details](#multi-category-crowd-analysis)
 
 
