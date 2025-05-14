@@ -1,4 +1,32 @@
 # Crowd Analysis on Waymo Dataset
+Understanding the location, distribution patterns, and characteristics of crowds—along with the number of objects within a specific space—is a critical field known as crowd analysis. Monitoring and analyzing crowds, especially in urban areas, is vital for applications in security, city management, urban planning, and disaster prevention.
+While most existing methods focus on people crowd counting, our work expands this domain by proposing novel approaches for counting and locating vehicles through estimating and generating density maps, and more broadly, counting various objects within road scenes.
+To achieve this, we utilized the comprehensive [Waymo Open Dataset](https://waymo.com/open/) and curated a custom sampled subset by manually annotating objects and labeling scenes based on their unique characteristics.
+Our work includes a transfer learning-based crowd analysis using single images, and also a more advanced method relying on object flow estimation to count vehicles on video frames and our third approach proposes a method for counting multiple objects within road scenes through training the network with annotated data including multiple object categories.
+
+### 🔍 Project Overview
+
+We propose three complementary approaches for object counting and localization:
+
+### 1. Transfer Learning-Based Vehicle Counting (Single Image)
+A convolutional neural network (CNN) trained using transfer learning to estimate the number of vehicles in a **single image**. This approach enables fast and accurate crowd density estimation from static frames.
+
+### 2. Object Flow Estimation (Video-Based Counting)
+A more advanced method that estimates **dynamic object flow** between video frames to track and count vehicles over time, capturing temporal dependencies and motion patterns.
+
+### 3. Multi-Class Object Counting
+A novel approach that counts **multiple object types** (e.g., vehicles, pedestrians, bicycles) within a road scene in video frames. The model is trained using our **manually annotated data** containing various object categories.
+
+
+### 📦 What’s Included
+
+- ✅ Trained models  
+- 📊 Sample outputs and density maps  
+- 🧰 Annotation tools  
+- 📋 Data, Annotation and Labeling details 
+- 🛠️ Instructions
+
+
 ## Crowd Analysis by Transfer Learning
 ### Trained Model Files
 Models trained for the 30th ICECS 2023 conference paper ["Vehicle Crowd Analysis via Transfer Learning"](https://ieeexplore.ieee.org/document/10382876) are available here.
