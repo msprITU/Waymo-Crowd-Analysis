@@ -27,6 +27,8 @@ A novel approach that counts **multiple object types** (e.g., vehicles, pedestri
 
 
 ### Labled Scene Attributes
+![Labled Scene Attributes](https://github.com/user-attachments/assets/04151b55-d8fb-4eca-aba6-f6a7eaef0b5a)
+
 
 
 ## Crowd Analysis by Transfer Learning
