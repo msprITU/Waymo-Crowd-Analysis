@@ -9,20 +9,19 @@ Our work includes a transfer learning-based crowd analysis using single images, 
 We propose three complementary approaches for object counting and localization:
 
 ### 1. Transfer Learning-Based Vehicle Counting (Single Image)
-A convolutional neural network (CNN) trained using transfer learning to estimate the number of vehicles in a **single image**. This approach enables fast and accurate crowd density estimation from static frames.
+A convolutional neural network (CNN) trained using transfer learning to estimate the number of vehicles in a **single image**. This approach enables fast and accurate crowd density estimation from static frames. [See details](#crowd-analysis-by-transfer-learning)
 
 ### 2. Object Flow Estimation (Video-Based Counting)
-A more advanced method that estimates **dynamic object flow** between video frames to track and count vehicles over time, capturing temporal dependencies and motion patterns.
+A more advanced method that estimates **dynamic object flow** between video frames to track and count vehicles over time, capturing temporal dependencies and motion patterns. [See details](#flow-estimation-based-crowd-analysis)
 
 ### 3. Multi-Class Object Counting
-A novel approach that counts **multiple object types** (e.g., vehicles, pedestrians, bicycles) within a road scene in video frames. The model is trained using our **manually annotated data** containing various object categories.
+A novel approach that counts **multiple object types** (e.g., vehicles, pedestrians, bicycles) within a road scene in video frames. The model is trained using our **manually annotated data** containing various object categories. [See details](#multi-category-crowd-analysis)
 
 
 ### 📦 What’s Included
 
 - ✅ Trained models  
-- 📊 Sample outputs and density maps  
-- 🧰 Annotation tools  
+- 📊 Sample outputs and density maps    
 - 📋 Data, Annotation and Labeling details 
 - 🛠️ Instructions
 
@@ -54,5 +53,3 @@ Visual comparison of ground truth density maps with predicted density maps of On
 
 ## Multi-Category Crowd Analysis
 
-### TODO
-- The code used for training and testing will be added to the repository.
