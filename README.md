@@ -66,9 +66,8 @@ Visual comparison of ground truth density maps with predicted density maps of On
 
 ### Data details
 Here is a detailed list of segments used for training and testing along with information about scene characteristics (attributes) and object instances.
-<div style="overflow-x: auto; font-size: 12px;">
   
-| Segment ID | Bright | Dark | Overcast | Occlusion | Low Density | Blurry | Pose | Scale | # Vehicles | # Pedestrians | # Bicycles |
+| ID | Bright | Dark | Overcast | Occlusion | Low-Den | Blurry | Pose | Scale | #Veh | #Ped | #Cyc |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 102353 | ✓ |  |  | ✓ |  |  | ✓ | ✓ | 6781 | 218 | 26 |
 | 100822 |  | ✓ |  | ✓ |  |  | ✓ | ✓ | 2799 | 539 |  |
@@ -188,5 +187,3 @@ Here is a detailed list of segments used for training and testing along with inf
 | 155396 |  |  | ✓ | ✓ |  | ✓ | ✓ | ✓ | 5173 | 362 |  |
 | 156465 |  |  | ✓ | ✓ |  |  | ✓ | ✓ | 6564 | 5684 |  |
 
-</div>
-​
