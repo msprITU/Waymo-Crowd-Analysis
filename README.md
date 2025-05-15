@@ -2,7 +2,7 @@
 Understanding the location, distribution patterns, and characteristics of crowds—along with the number of objects within a specific space—is a critical field known as crowd analysis. Monitoring and analyzing crowds, especially in urban areas, is vital for applications in security, city management, urban planning, and disaster prevention.
 While most existing methods focus on people crowd counting, our work expands this domain by proposing novel approaches for counting and locating vehicles through estimating and generating density maps, and more broadly, counting various objects within road scenes.
 To achieve this, we utilized the comprehensive [Waymo Open Dataset](https://waymo.com/open/) and curated a custom sampled subset by manually annotating objects and labeling scenes based on their unique characteristics.
-Our work includes a transfer learning-based crowd analysis using single images, and also a more advanced method relying on object flow estimation to count vehicles on video frames and our third approach proposes a method for counting multiple objects within road scenes through training the network with annotated data including multiple object categories.
+Our work includes a transfer learning-based crowd analysis using single images, and also a more advanced method relying on object flow estimation to count vehicles on video frames and our third approach proposes a method for counting multiple objects within road scenes through training the network with [annotated data](#labled-scene-attributes) including [multiple object categories](#data-details).
 
 ### 🔍 Project Overview
 
