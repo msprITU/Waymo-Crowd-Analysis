@@ -69,8 +69,8 @@ first image shows network performance in terms of output density map in a normal
 
 Video segment below shows the network output corresponding to the input frames:
 
-![image](https://github.com/user-attachments/assets/f9075f11-a97b-4b8d-9ae6-dbe43f95cbe7)
-![image](https://github.com/user-attachments/assets/54d9661f-41ea-4779-8fd4-995dc49d5be0)
+![car1](https://github.com/user-attachments/assets/3ccb51dd-b640-4777-9bf8-d8b718486a3b)
+![car2](https://github.com/user-attachments/assets/3eeee636-73a1-45e8-b2fa-248832cab967)
 
 
 
