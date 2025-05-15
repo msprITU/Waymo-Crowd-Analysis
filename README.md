@@ -60,7 +60,7 @@ Visual comparison of ground truth density maps with predicted density maps of On
 
 In our work titled [Vehicle Crowd Density Estimation Enhanced by Video Flow Maps](http://www.eleco.org.tr/ELECO2023/eleco2023-papers/103.pdf), which was presented at the IEEE ELECO Conference 2023. We propose a method of road vehicle analsys that employs the [CANnet2s](https://github.com/weizheliu/People-Flows) CNN network which works in temporal domain and processes input video segments instead of single images and estimates objects' flows hence, reaching to total object count and estimated density maps and flow maps in 10 different movement directions. 
 
-### Here we showcase network outputs both in image and video format. These outputs are generated using [this trained model](https://drive.google.com/file/d/18ZPd5EUADh1ycp2vcj-3DgxJhIXOTLxO/view?usp=sharing) on Waymo dataset.
+#### Here we showcase network outputs both in image and video format. These outputs are generated using [this trained model](https://drive.google.com/file/d/18ZPd5EUADh1ycp2vcj-3DgxJhIXOTLxO/view?usp=sharing) on Waymo dataset.
 
 first image shows network performance in terms of output density map in a normal scene compared to the GT density map, and the second image depicts network performance in a challenging blurry scene and network capability to perform well in this condition as well.
 
@@ -76,14 +76,20 @@ Video segment below shows the network output corresponding to the input frames:
 
 ## Multi-Category Crowd Analysis
 
+To further increase network performance on Waymo dataset, and to better adapt the method to the real road scenarios, we annotated three different object types in Waymo data and trained the network from scratch using generated density maps including center points of Vehicles, Pedestrians, and Bicycles (including the cyclist), reaching to Multi-category crowd analysis trained models. We also trained the network for each single object as well. Multi-category models trained for two or three objects are denoted as M-CAN2s-2, and M-CAN2s-3, respectively; and single trained objects are denoted as S-CAN2s-Vec, S-CAN2s-Ped, and S-CAN2s-Cyc, for Vehicles, Pedestrians, and Bicycles, respectively. Below you can access all the trained models and see video segments of network's estimated density maps using different models. 
 
-
-
+| Trained Model | Target Objects | Link |
+| --- | --- | --- |
+| M-CAN2s-3 | Vehicles, Pedestrians, Bicycles | [Download](https://drive.google.com/file/d/1KioRtXbTuPiYAk5tXgaL6ZbLZApaYJ9h/view?usp=sharing) |
+| M-CAN2s-2 | Vehicles, Pedestrians | [Download](https://drive.google.com/file/d/1JtKXJsyJyQUo6-FdaEm2u55kKTGiGOYO/view?usp=sharing) |
+| S-CAN2s-Vec | Only Vehicles | [Download](https://drive.google.com/file/d/1JFGa4dUVzxTTIWaIaclrJZWO261HWg7f/view?usp=sharing) |
+| S-CAN2s-Ped | Only Pedestrians | [Download](https://drive.google.com/file/d/1RGbCQLeEvipbgLJh4bmwZ-vo5z66gi6r/view?usp=sharing) |
+| S-CAN2s-Cyc | Only Bicycles | [Download](https://drive.google.com/file/d/1zWJ8LQjWJ0_nuKOChryR3MYiv_JXRzs-/view?usp=sharing) |
 
 ### Data details
 Here is a detailed list of segments used for training and testing along with information about scene characteristics (attributes) and object instances.
   
-| ID | Bright | Dark | Overcast | Occlusion | Low-Den | Blurry | Pose | Scale | #Veh | #Ped | #Cyc |
+| ID | Bright | Dark | Overcast | Occlusion | Low-Den | Blurry | Pose | Scale | #Vec | #Ped | #Cyc |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 102353 | ✓ |  |  | ✓ |  |  | ✓ | ✓ | 6781 | 218 | 26 |
 | 100822 |  | ✓ |  | ✓ |  |  | ✓ | ✓ | 2799 | 539 |  |
