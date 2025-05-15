@@ -58,6 +58,22 @@ Visual comparison of ground truth density maps with predicted density maps of On
 
 ## Flow Estimation-based Crowd Analysis
 
+In our work titled [Vehicle Crowd Density Estimation Enhanced by Video Flow Maps](http://www.eleco.org.tr/ELECO2023/eleco2023-papers/103.pdf), which was presented at the IEEE ELECO Conference 2023. We propose a method of road vehicle analsys that employs the [CANnet2s](https://github.com/weizheliu/People-Flows) CNN network which works in temporal domain and processes input video segments instead of single images and estimates objects' flows hence, reaching to total object count and estimated density maps and flow maps in 10 different movement directions. 
+
+###Here we showcase network outputs both in image and video format. These outputs are generated using this trained model on Waymo dataset.
+
+first image shows network performance in terms of output density map in a normal scene compared to the GT density map, and the second image depicts network performance in a challenging blurry scene and network capability to perform well in this condition as well.
+
+![mix_161](https://github.com/user-attachments/assets/d7a7ec0e-51f1-42c1-86ca-40d2abe33ae0)
+![mix_blur](https://github.com/user-attachments/assets/496c6d8e-ceb0-44cc-942b-34333f4b95b8)
+
+Video segment below shows the network output corresponding to the input frames:
+
+![image](https://github.com/user-attachments/assets/f9075f11-a97b-4b8d-9ae6-dbe43f95cbe7)
+![image](https://github.com/user-attachments/assets/54d9661f-41ea-4779-8fd4-995dc49d5be0)
+
+
+
 ## Multi-Category Crowd Analysis
 
 
